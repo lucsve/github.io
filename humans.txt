@@ -1,0 +1,15 @@
+/* TEAM */
+  Name: Lucas Svensson.
+  Contact: ls223vd [at] student.lnu.se
+  Location: Gothenburg, Sweden
+
+/* THANKS */
+  Disqus 
+  Fine people at LNU 
+
+/* SITE */
+	Last update: 2019/11/13 
+	Language: English / Swedish
+	Doctype: HTML5
+	IDE: Visual Studio Code 
+  Software: Docker, Jekyll  
