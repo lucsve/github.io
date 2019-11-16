@@ -4,7 +4,7 @@
 .site-header {
   // border-top: 100px dotted $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  background-color: rgb(186, 198, 236);
+  background-color: #5ac1e3;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -49,18 +49,19 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    // right: $spacing-unit / 2;
+    // top: 18px;
+    right: 0;
+    padding-top: 18px;
+//    background-color: $background-color;
     text-align: right;
 
     label[for="nav-trigger"] {
       display: block;
       float: right;
       width: 36px;
-      height: 36px;
+//      height: 36px;
+      margin-right: 10px;
       z-index: 2;
       cursor: pointer;
     }
@@ -71,11 +72,11 @@
       width: 36px;
       height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      // padding: 10px;
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $brightest-color;
       }
     }
 
@@ -86,19 +87,33 @@
 
     input:checked ~ .trigger {
       display: block;
-      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-bottom: $spacing-unit;
     }
 
     .page-link {
       display: block;
-      padding: 5px 10px;
+      padding: 5px 20px;
+      width: 100vw;
+
+      text-decoration: none;
+      color: $brightest-color;
 
       &:not(:last-child) {
         margin-right: 0;
       }
+
+      &:hover {
+        background-color: indigo;
+      }
+    
       margin-left: 20px;
     }
   }
+}
+
+.site-nav--bgcolor {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -185,6 +200,22 @@
   @include relative-font-size(2);
 }
 
+.post-promos {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+  justify-content: space-between;
+}
+
+.post-promo {
+  flex-basis: 30%;
+  min-width: 160px;
+
+  @include media-query ($on-palm) {
+    min-width: 100%;
+  }
+}
+
 .post-list-heading {
   @include relative-font-size(1.75);
 }
@@ -201,6 +232,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  text-transform: uppercase;
 }
 
 .post-link {

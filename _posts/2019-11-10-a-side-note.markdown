@@ -2,7 +2,7 @@
 layout: post
 title:  "A side note"
 date:   2019-11-11 22:20:00 +0100
-excerpt: This is just a test page and this is testing the excerpt thingy-majingy
+excerpt: This is just a test page and this is testing the excerpt thingy-majingy who might even call himself the Incredible Hulk or Doc Sampson
 categories: jekyll update
 comments: true
 ---
