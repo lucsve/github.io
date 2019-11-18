@@ -1,14 +1,15 @@
 /* TEAM */
-  Name: Lucas Svensson.
+  Name: Lucas Svensson
   Contact: ls223vd [at] student.lnu.se
   Location: Gothenburg, Sweden
 
 /* THANKS */
   Disqus 
   Fine people at LNU 
+  Nathan Anderson for photo borrowed Unsplash
 
 /* SITE */
-	Last update: 2019/11/13 
+	Last update: 2019/11/19
 	Language: English / Swedish
 	Doctype: HTML5
 	IDE: Visual Studio Code 
