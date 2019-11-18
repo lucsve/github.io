@@ -135,6 +135,11 @@
       &:hover {
         background-color: $cyan-color-dark;
       }
+
+      &:hover::after {
+        transform: scaleY(0)
+      }
+  
     
       margin-left: 20px;
     }

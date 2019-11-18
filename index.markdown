@@ -18,14 +18,14 @@ image: /assets/lucsve-og.png
   <ul>
     <li><s>Add Disqus</s></li>
     <li><s>Page about me etc.</s></li>
-    <li>One page listing the blog posts (this?)</li>
+    <li><s>One page listing the blog posts (this?)</s></li>
     <li><s>Add robots.txt</s></li>
     <li><s>Add humans.txt</s></li>
     <li><s>Create favicon</s></li>
     <li><s>Add open graph</s></li>
     <li><s>Create image for open graph</s></li>
     <li>Create blog posts and explain stuff</li>
-    <li>Make pretty CSS</li>
-    <li>Modify layout</li>
+    <li><s>Make pretty CSS</s></li>
+    <li><s>Modify layout</s></li>
   </ul>
 </div>

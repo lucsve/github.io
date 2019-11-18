@@ -1,0 +1,19 @@
+{%- if site.posts.size > 0 -%}
+
+<ul class="post-list post-promos">
+  {%- for post in site.posts -%}
+  <a class="post-link" href="{{ post.url | relative_url }}">
+    <li class="post-promo">
+
+      <h3>
+          {{ post.title | escape }}
+      </h3>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+  </a>
+  {%- endfor -%}
+</ul>
+
+{%- endif -%}

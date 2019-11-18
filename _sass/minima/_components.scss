@@ -17,16 +17,17 @@
   color: $grey-color-dark;
   h3 {
     @include get-font ($sans-serif-font-family, 1rem, 600);
-    text-transform: unset;
     letter-spacing: 0.3px;
+    color: $cyan-color-dark;
   }
 
+  font: 0.8rem/1.5 $serif-font-family;
   box-sizing: border-box;
   min-width: 60px;
   min-height: 200px;
   padding: 10px;
+  margin-bottom: $spacing-unit;
   box-shadow: 0 2px 3px rgba(0,0,0,.26);
-  font: 0.8rem/1.5 $serif-font-family;
   
   &:hover {
     color: $red-color-light;
@@ -72,6 +73,10 @@
   @include bg-image ('/assets/about-banner.png', 230px - $margin-unit);
 }
 
+.hero--blog {
+  @include bg-image ('/assets/blog-banner.png', 230px - $margin-unit);
+}
+
 .intro-text {
   @include get-font ($sans-serif-font-family, 1.1rem, 400);
   color: rgba($grey-color-dark, 0.6);
@@ -94,5 +99,9 @@
     color: white;
     text-decoration: none;
     background-color: $cyan-color-dark;
+  }
+
+  &:visited {
+    color: white;
   }
 }
