@@ -14,9 +14,9 @@ permalink: /about/
 Jag studerar vid Linnéuniversitetet och den här webbplatsen är resultatet av en examinationsuppgift i kursen 1DV022. Syftet är följande: 
 * testa på en *static site generator* ([Jekyll](https://jekyllrb.com/ "Jekylls webbplats") i mitt fall)
 * förstå grejen med [Markdown](https://daringfireball.net/projects/markdown/) 
-* använda mig av en CSS preprocessor 
+* använda mig av en *CSS preprocessor* 
 
-För att beskriva mig som person håller jag mig så anspråkslös som möjligt. Jag har två barn och skulle vilja ha en hund om livspusslet och boendeformen hade varit lite mer välkomnande. 
+För att beskriva mig som person håller jag mig så anspråkslös som möjligt. Jag har två barn och skulle vilja ha en hund om livspusslet och boende&shy;formen hade varit lite mer välkomnande. På min fritid önskar jag att jag hade läst mer serietidningar. Istället kompromissar jag med att se tv- och filmadaptioner med serietidningskaraktärer. 
 
 Tidigare har jag kodat HTML, CSS, PHP och JavaScript. Vad gäller de två sistnämnda efter behov. Egentligen tycker jag minst lika mycket om grafisk formgivning och det har alltid känts lite besvärligt att behöva välja sida. Koda eller rita, ungefär. Mitt life goalz är att det en vacker dag ska bli min styrka. Att *full stack* i mitt fall även innebär att jag är lika stark med det grafiska. Men hittills upplever jag mig mest som en [bedragare](https://sv.wikipedia.org/wiki/Bluffsyndromet). Lägg sedan till att ytterligare ett skäl till varför jag tycker om att koda är för att jag är svag för språk överlag. Så vi får se hur det går, tjo!
 
