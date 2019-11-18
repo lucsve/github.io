@@ -1,0 +1,48 @@
+.post-promos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  a {
+    flex-basis: 30%;
+    text-decoration: none;
+
+    @include media-query($on-palm) {
+      min-width: 100%;
+    }
+  }
+}
+
+.post-promo {
+
+  h3 {
+    font-family: $base-font-family;
+    font-weight: 700;
+    text-transform: unset;
+    color: $grey-color-dark;
+  }
+
+  box-sizing: border-box;
+  min-width: 60px;
+  min-height: 200px;
+  padding: 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.26);
+  font: 13px/1.5 $serif-font-family;
+  
+  &:hover {
+    color: $red-color-light;
+    background-color: rgba($red-color-light, 0.2);
+    border-bottom: 10px solid $red-color-light;
+  }
+
+  @include media-query ($on-palm) {
+    min-height: 100px;
+    margin-bottom: 10px;
+
+
+    &:hover {
+      border-bottom: 0;
+      border-left: 10px solid $red-color-light;
+    }
+  }
+}

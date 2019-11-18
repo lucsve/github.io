@@ -8,10 +8,13 @@ layout: default
   {%- endif -%}
 -->
   {{ content }}
+  <p>Hero</p>
+  <p>Ingress-ish</p>
+  <p>Separator</p>
   
   {%- include recent-blog-posts.html -%}
   
-  {%- if site.posts.size > 0 -%}
+<!--  {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -29,7 +32,7 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
+-->
     <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
 
@@ -43,8 +46,8 @@ layout: default
     <li><s>Add robots.txt</s></li>
     <li><s>Add humans.txt</s></li>
     <li>Create favicon</li>
-    <li>Add open graph</li>
-    <li>Create image for open graph</li>
+    <li><s>Add open graph</s></li>
+    <li><s>Create image for open graph</s></li>
     <li>Create blog posts and explain stuff</li>
     <li>Make pretty CSS</li>
     <li>Modify layout</li>

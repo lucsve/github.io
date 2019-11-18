@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Lucas Svensson
+title: Getting into 1DV022
 image: /assets/lucsve-og.png
 ---
