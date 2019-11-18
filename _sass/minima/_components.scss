@@ -26,7 +26,7 @@
   min-height: 200px;
   padding: 10px;
   box-shadow: 0 2px 3px rgba(0,0,0,.26);
-  font: 13px/1.5 $serif-font-family;
+  font: 0.8rem/1.5 $serif-font-family;
   
   &:hover {
     color: $red-color-light;
@@ -66,6 +66,10 @@
 .hero--light {
   @extend .hero; 
   color: white;
+}
+
+.hero--about {
+  @include bg-image ('/assets/about-banner.png', 230px - $margin-unit);
 }
 
 .intro-text {

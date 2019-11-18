@@ -280,6 +280,10 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  p {
+    width: 70%;
+  }
+
   h2 {
     @include relative-font-size(2);
 
