@@ -14,12 +14,11 @@
 }
 
 .post-promo {
-
+  color: $grey-color-dark;
   h3 {
-    font-family: $base-font-family;
-    font-weight: 700;
+    @include get-font ($sans-serif-font-family, 1rem, 600);
     text-transform: unset;
-    color: $grey-color-dark;
+    letter-spacing: 0.3px;
   }
 
   box-sizing: border-box;
@@ -44,5 +43,52 @@
       border-bottom: 0;
       border-left: 10px solid $red-color-light;
     }
+  }
+}
+
+.hero {
+  @include bg-image ('/assets/hero-banner.png', 230px - $margin-unit);
+  @include get-font ($sans-serif-font-family, 35px, 700);
+  text-transform: uppercase;
+  line-height: 1;
+
+  // Negative margins put hero within inner wrapper
+  margin-left: -$margin-unit;
+  margin-right: -$margin-unit;
+  padding: $margin-unit;
+
+  // Aligns text to bottom
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;  
+}
+
+.hero--light {
+  @extend .hero; 
+  color: white;
+}
+
+.intro-text {
+  @include get-font ($sans-serif-font-family, 1.1rem, 400);
+  color: rgba($grey-color-dark, 0.6);
+  padding: $margin-unit;
+  border-bottom: 10px solid $red-color-light;
+  margin-bottom: 50px;
+}
+
+.button--full {
+  display: block;
+  @include get-font ($sans-serif-font-family, 1.1rem, 500);
+  padding: 0.5rem; 
+  background-color: $cyan-color-light;
+  text-align: center;
+  margin: 1.5rem 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+    background-color: $cyan-color-dark;
   }
 }

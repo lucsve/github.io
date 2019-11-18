@@ -8,11 +8,6 @@ layout: default
   {%- endif -%}
 -->
   {{ content }}
-  <p>Hero</p>
-  <p>Ingress-ish</p>
-  <p>Separator</p>
-  
-  {%- include recent-blog-posts.html -%}
   
 <!--  {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
@@ -32,24 +27,8 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
--->
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-  {%- endif -%}
 
-</div>
-<div id="todo">
-  <h2>TO-DO:</h2>
-  <ul>
-    <li><s>Add Disqus</s></li>
-    <li>Page about me etc.</li>
-    <li>One page listing the blog posts (this?)</li>
-    <li><s>Add robots.txt</s></li>
-    <li><s>Add humans.txt</s></li>
-    <li>Create favicon</li>
-    <li><s>Add open graph</s></li>
-    <li><s>Create image for open graph</s></li>
-    <li>Create blog posts and explain stuff</li>
-    <li>Make pretty CSS</li>
-    <li>Modify layout</li>
-  </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+-->
 </div>

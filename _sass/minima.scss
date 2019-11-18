@@ -23,14 +23,14 @@ $margin-unit:     $spacing-unit !default;
 
 $text-color:       #111 !default;
 $background-color: #ebbaac !default;
-$background-image: url("bg-temp.png");
+$background-image: url("ls-bg-pattern.png");
 $brand-color:      #2a7ae2 !default;
 
 $brightest-color:   #ffffff;
 $red-color-light:   #e5666a;
-$red-color-dark:    #8c3e41;
-$cyan-color-light:  #27b3c4;
-$cyan-color-dark:   #215a62;
+$red-color-dark:    #9f5061;
+$cyan-color-light:  #4da4cd;
+$cyan-color-dark:   #3872a3;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

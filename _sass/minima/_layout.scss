@@ -3,7 +3,7 @@
  */
 .site-header {
   // border-top: 100px dotted $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  // border-bottom: 1px solid $grey-color-light;
   background-color: $cyan-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -45,11 +45,35 @@
     @include get-font($sans-serif-font-family, $weight: 500);
     color: $brightest-color;
     line-height: $base-line-height;
+    position: relative;
+
+    &:hover {
+      text-decoration: none;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
     }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 8px;
+      bottom: -10px;
+      width: 100%;
+      background-color: white;
+
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 100ms ease-in-out;
+    }
+
+    &:hover::after {
+      transform: scaleY(1)
+    }
+
   }
 
   @include media-query($on-palm) {
