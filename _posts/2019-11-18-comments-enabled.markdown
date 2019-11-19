@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Please comment below!"
+image: /assets/lucsve-og.png
+author: Lucas
 date:   2019-11-18 09:00:00 +0100
 categories: assignment
 excerpt: Det sägs att man utvecklas av kritik. Så vad tänkte jag när jag bjöd in trollen och aktiverade kommentarsfält? 

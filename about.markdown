@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+image: /assets/lucsve-og.png
 permalink: /about/
 ---
 <div class="hero--light hero--about">

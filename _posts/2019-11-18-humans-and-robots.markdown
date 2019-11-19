@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Humans and Robots"
+image: /assets/lucsve-og.png
+author: Lucas
 date:   2019-11-18 14:00:00 +0100
 categories: assignment
 excerpt: Kan människor och robotar leva sida vid sida?

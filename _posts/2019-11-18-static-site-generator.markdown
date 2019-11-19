@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Static site generators"
+image: /assets/lucsve-og.png
 author: Lucas
 date:   2019-11-18 12:00:08 +0100
 categories: assignment

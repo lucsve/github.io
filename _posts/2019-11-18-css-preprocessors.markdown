@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Pre-compiling CSS"
+image: /assets/lucsve-og.png
+author: Lucas
 date:   2019-11-18 07:00:00 +0100
 categories: assignment
 excerpt: Här delar jag med mig om mina tankar om att pre-kompilera CSS.

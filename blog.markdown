@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: All blog posts 
+image: /assets/lucsve-og.png
 permalink: /blog/
 ---
 <div class="hero--light hero--blog">
