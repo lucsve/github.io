@@ -6,7 +6,7 @@ author: Lucas
 date:   2019-11-18 10:00:00 +0100
 categories: assignment
 excerpt: Bestäm vad du ska ha för ansikte utåt innan någon annan gör det åt dig.  
-comments: false
+comments: true
 ---
 ### Open Graph
 #### Vad är det? 
