@@ -12,20 +12,3 @@ image: /assets/lucsve-og.png
   <div class="intro-text">Exploring the static site generator Jekyll and the use of CSS preprocessor. Below, you can read some short blog posts related to this assignment that is the first in the course 1DV022.</div>
   
   {%- include recent-blog-posts.html -%}
-
-<div id="todo">
-  <h2>TO-DO:</h2>
-  <ul>
-    <li><s>Add Disqus</s></li>
-    <li><s>Page about me etc.</s></li>
-    <li><s>One page listing the blog posts (this?)</s></li>
-    <li><s>Add robots.txt</s></li>
-    <li><s>Add humans.txt</s></li>
-    <li><s>Create favicon</s></li>
-    <li><s>Add open graph</s></li>
-    <li><s>Create image for open graph</s></li>
-    <li>Create blog posts and explain stuff</li>
-    <li><s>Make pretty CSS</s></li>
-    <li><s>Modify layout</s></li>
-  </ul>
-</div>
