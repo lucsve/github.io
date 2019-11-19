@@ -89,7 +89,7 @@
   display: block;
   @include get-font ($sans-serif-font-family, 1.1rem, 500);
   padding: 0.5rem; 
-  background-color: $cyan-color-light;
+  background-color: $red-color-light;
   text-align: center;
   margin: 1.5rem 0;
   color: white;
@@ -98,7 +98,7 @@
   &:hover {
     color: white;
     text-decoration: none;
-    background-color: $cyan-color-dark;
+    background-color: $red-color-dark;
   }
 
   &:visited {
