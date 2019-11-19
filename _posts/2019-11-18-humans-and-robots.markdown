@@ -4,7 +4,7 @@ title:  "Humans and Robots"
 date:   2019-11-18 14:00:00 +0100
 categories: assignment
 excerpt: Kan människor och robotar leva sida vid sida?
-comments: false
+comments: true
 ---
 ### humans.txt 
 För att ge uppmärksamhet till de som ligger bakom en sajt har fenomenet humans.txt utvecklats på initiativ av [humanstxt.org](http://humanstxt.org/). Det är en vanlig txt-fil som man lägger upp i sajtroten. Där uppger man vilka som arbetat med webbplatsen, tackar eventuellt berörda parter och så kan man specificera vilka verktyg man använt för att utveckla den aktuella sajten. Det tillför inte så mycket (om alls något) vad gäller SEO, utan som namnet hintar om är det till för människor. Och kanske i synnerhet nördarna/branschfolket. Det är som en sajts eftertexter, utan koppling till [IMDB](http://imdb.com).
