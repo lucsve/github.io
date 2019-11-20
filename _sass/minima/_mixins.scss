@@ -35,3 +35,8 @@
   @if $weight { font-weight: $weight; }
   @if $style { font-style: $style; }
 }
+
+@mixin wrapper-width ($n) {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * #{$n}));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * #{$n}));  
+}

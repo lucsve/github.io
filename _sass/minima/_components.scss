@@ -62,6 +62,11 @@
   display: flex;
   justify-content: left;
   align-items: flex-end;  
+
+  @include media-query($on-laptop) {
+    margin-right: -$margin-unit / 2;
+    margin-left: -$margin-unit / 2;
+  }
 }
 
 .hero--light {

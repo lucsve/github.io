@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-  // border-top: 100px dotted $grey-color-dark;
-  // border-bottom: 1px solid $grey-color-light;
   background-color: $cyan-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -12,11 +10,8 @@
 }
 
 .site-title {
-  // @include relative-font-size(1.625);
-  // font-weight: 300;
-  @include get-font($sans-serif-font-family, 30px, 700);
+  @include get-font($sans-serif-font-family, 1.9rem, 700);
   line-height: $base-line-height * $base-font-size * 2.25;
-  // letter-spacing: -1px;
   letter-spacing: 3px;
   margin-bottom: 0;
   float: left;
@@ -78,18 +73,14 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    // right: $spacing-unit / 2;
-    // top: 18px;
     right: 0;
     padding-top: 18px;
-//    background-color: $background-color;
     text-align: right;
 
     label[for="nav-trigger"] {
       display: block;
       float: right;
       width: 36px;
-//      height: 36px;
       margin-right: 10px;
       z-index: 2;
       cursor: pointer;
@@ -101,7 +92,6 @@
       width: 36px;
       height: 26px;
       line-height: 0;
-      // padding: 10px;
       text-align: center;
 
       > svg {
@@ -175,7 +165,6 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  // color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 
@@ -292,7 +281,7 @@
   margin-bottom: $spacing-unit;
 
   p, li {
-    width: 70%;
+    width: 90%;
   }
 
   li {
@@ -322,5 +311,11 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+  }
+}
+
+.post-header, .post-content {
+  @include media-query($on-laptop) {
+    padding-left: $spacing-unit / 2;
   }
 }
